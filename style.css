@@ -1,0 +1,90 @@
+body { 
+    background-color: darkseagreen; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.6; 
+}
+header { 
+    background-color: black; 
+    color: white; 
+    font-family: Times, serif; 
+    text-align: center; 
+    padding: 20px; 
+} 
+header img{ 
+    max-width: 130px; 
+}
+nav ul {
+    list-style: none; 
+    padding: 0; 
+} 
+nav ul li { 
+    display: inline; 
+    margin: 0 15px; 
+} 
+nav ul li a { 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+} 
+nav ul li a:hover { 
+    color:darkseagreen; 
+    text-decoration: underline; 
+} 
+html{ 
+    scroll-behavior: smooth; 
+} 
+.sobre-mi {
+  background: #fff;
+  margin: 20px auto; 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sobre-mi .contenido {
+  display: flex;           
+  align-items: center;       
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.sobre-mi .texto {
+  flex: 1;                   
+  font-family: 'arial', Arial, sans-serif; 
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.contenido
+{height: 60vh;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+#zona1{
+    background-image: url('../imagenes/ESTATUA.PNG');
+}
+#zona2{
+    background-image: url('../imagenes/FRANCIAA.jpg');
+}
+#zona3{
+    background-image: url('../imagenes/ALEMAN.jpg');
+}
+footer { 
+    background-color: black; 
+    font-family: Times, serif; 
+    text-align: center; 
+    color: white; 
+    padding: 15px; 
+}
+footer a { 
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+footer a:hover { 
+    color:darkseagreen; 
+}
